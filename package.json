@@ -1,0 +1,43 @@
+{
+  "name": "message-schedule",
+  "version": "1.0.0",
+  "description": "Agendamento de envio de mensagens",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "swagger-autogen": "node swagger.js",
+    "test": "jest --noStackTrace --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Diego Sanchez Mascarenhas",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "fetch": "^1.1.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-fetch": "^3.1.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6",
+    "swagger-autogen": "^2.17.2",
+    "swagger-ui-express": "^4.3.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
